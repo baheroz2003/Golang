@@ -26,3 +26,4 @@ func(u User) NewMail(){
 	fmt.Println("email is",u.Email)
 }
 //it will not replace the original,just manipulate
+//pointer will change the original
