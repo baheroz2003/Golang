@@ -17,6 +17,7 @@ func adder(val1 int,val2 int) int{
 	return val1+val2
 }
 //that is call function signature taht is what type of value u want to return
+//values works as a set of intgers
 func proadder(values ...int)(int,string){
 	total:=0
 	for _,val:=range values{
